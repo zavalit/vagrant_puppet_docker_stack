@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "f4e919c1713988f9a8a83dd20a378405",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "zavalit/corouser",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zavalit/corouser.git",
+                "reference": "80beabc8e123bfbbe8e606ed3eb4fc85373fd352"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zavalit/corouser/zipball/80beabc8e123bfbbe8e606ed3eb4fc85373fd352",
+                "reference": "80beabc8e123bfbbe8e606ed3eb4fc85373fd352",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "bin": [
+                "bin/server"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Vsevolod Dolgopolov",
+                    "email": "zavalit@gmail.com"
+                }
+            ],
+            "description": "Coroutine based server",
+            "time": "2015-04-23 18:38:50"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "zavalit/corouser": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

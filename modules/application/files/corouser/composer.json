@@ -1,0 +1,5 @@
+{
+    "require-dev": {
+        "zavalit/corouser": "dev-master"
+    }
+}
